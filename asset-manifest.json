@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/plant-care/static/css/main.073c9b0a.css",
+    "main.js": "/plant-care/static/js/main.3085e4a6.js",
+    "index.html": "/plant-care/index.html",
+    "main.073c9b0a.css.map": "/plant-care/static/css/main.073c9b0a.css.map",
+    "main.3085e4a6.js.map": "/plant-care/static/js/main.3085e4a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3085e4a6.js"
+  ]
+}
