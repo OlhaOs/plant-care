@@ -2,7 +2,7 @@
   "name": "plant-care",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://OlhaOs.github.io/plants_care/",
+  "homepage": "https://OlhaOs.github.io/plant-care/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",

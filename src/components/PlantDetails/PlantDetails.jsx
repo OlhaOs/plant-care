@@ -9,8 +9,8 @@ import { CardActionArea } from '@mui/material';
 
 export default function PlantDetails({ data }) {
   const { plantId } = useParams();
-  const selectedPlant = data.find(item => (item.id = plantId));
-  console.log(selectedPlant);
+  const selectedPlant = data.find(item => item.id === parseInt(plantId));
+
   return (
     <>
       <Header />
@@ -18,7 +18,7 @@ export default function PlantDetails({ data }) {
         <CardActionArea>
           <CardMedia
             component="img"
-            image={selectedPlant.image}
+            image={process.env.PUBLIC_URL + '/images/' + selectedPlant.image}
             alt={selectedPlant.title}
           />
           <CardContent>
@@ -28,7 +28,7 @@ export default function PlantDetails({ data }) {
             <Typography gutterBottom variant="h5">
               Опис
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
               {selectedPlant.description}
             </Typography>
             <Typography gutterBottom variant="h5">

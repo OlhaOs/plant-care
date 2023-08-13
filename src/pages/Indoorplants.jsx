@@ -29,7 +29,12 @@ export default function Indoorplants({ data }) {
       <Header />
       <List>
         {Array.from(uniqueSpecies).map(species => (
-          <ListItem key={species} sx={{ display: 'block' }}>
+          <ListItem
+            key={species}
+            sx={{
+              display: 'block',
+            }}
+          >
             <ListItemButton
               onClick={() => handleItemClick(species)}
               component={Link}
