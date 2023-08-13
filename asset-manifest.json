@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/plants_care/static/css/main.073c9b0a.css",
-    "main.js": "/plants_care/static/js/main.3085e4a6.js",
-    "index.html": "/plants_care/index.html",
-    "main.073c9b0a.css.map": "/plants_care/static/css/main.073c9b0a.css.map",
-    "main.3085e4a6.js.map": "/plants_care/static/js/main.3085e4a6.js.map"
+    "main.css": "/plant-care/static/css/main.073c9b0a.css",
+    "main.js": "/plant-care/static/js/main.56c6d36a.js",
+    "index.html": "/plant-care/index.html",
+    "main.073c9b0a.css.map": "/plant-care/static/css/main.073c9b0a.css.map",
+    "main.56c6d36a.js.map": "/plant-care/static/js/main.56c6d36a.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3085e4a6.js"
+    "static/js/main.56c6d36a.js"
   ]
 }
