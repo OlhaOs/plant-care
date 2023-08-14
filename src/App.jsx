@@ -17,7 +17,7 @@ function App() {
     palette: {
       // mode: 'dark',
       primary: {
-        main: green[300],
+        main: green[400],
       },
       secondary: {
         main: '#000',
