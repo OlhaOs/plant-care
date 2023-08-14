@@ -33,7 +33,7 @@ function App() {
         'Фікус бенджаміна — кімнатна рослина, що не втрачає популярності десятки років. Попри це досі невідомо, чому вона має таку назву. Більшість думає, що, мабуть, цей вид відкрив якийсь собі такий Бенджамін. Але нічого подібного на сьогодні не доведено, тому зазвичай назву цього фікуса пишуть з маленької букви. Це одна з найпростіших у вирощуванні кімнатних рослин. Фікус бенджаміна любить сонце, і це головна умова його декоративності. Детально про догляд за ним піде мова в нашій статті.',
       species: 'Фікус',
       care: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis adipisci quisquam, vitae minima provident nihil quas dolorum delectus asperiores recusandae quae, rem praesentium facilis suscipit laudantium at. Veritatis, necessitatibus',
-      image: 'img-not-found.jpg',
+      image: '/images/img-not-found.jpg',
     },
     {
       id: 2,
@@ -43,7 +43,7 @@ function App() {
       species: 'Фікус',
       care: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis adipisci quisquam, vitae minima provident nihil quas dolorum delectus asperiores recusandae quae, rem praesentium facilis suscipit laudantium at. Veritatis, necessitatibus',
 
-      image: './images/img-not-found.jpg',
+      image: '/images/img-not-found.jpg',
     },
     {
       id: 3,
