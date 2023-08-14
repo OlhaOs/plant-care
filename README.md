@@ -1,1 +1,1 @@
-This app can help you take care of your plants
+This app can help you to take care of your plants
