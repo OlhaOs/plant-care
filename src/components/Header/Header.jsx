@@ -24,7 +24,7 @@ export default function Header() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <Button component={Link} to="/plant-care" color="secondary" sx={{ mr: 2 }}>
+          <Button component={Link} to="/" color="secondary" sx={{ mr: 2 }}>
             <LocalFloristOutlinedIcon fontSize="large" />
           </Button>
 

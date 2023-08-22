@@ -14,9 +14,8 @@ import Stack from '@mui/material/Stack';
 
 export default function PlantDetails({ data }) {
   const { plantId } = useParams();
-  const selectedPlant = data.find(item => item.id === parseInt(plantId));
+  const selectedPlant = data.find(item => item.id === plantId);
   const navigate = useNavigate();
-
   return (
     <>
       <Header />
@@ -27,7 +26,7 @@ export default function PlantDetails({ data }) {
       >
         <Button
           variant="outlined"
-          fullWidth="100%"
+          fullWidth
           startIcon={<NavigateBeforeIcon />}
           onClick={() => navigate(-1)}
         >
@@ -39,8 +38,11 @@ export default function PlantDetails({ data }) {
         <CardActionArea>
           <CardMedia
             component="img"
-            image={process.env.PUBLIC_URL + '/images/' + selectedPlant.image}
+            image={selectedPlant.image}
             alt={selectedPlant.title}
+            sx={{
+              width: '50%',
+            }}
           />
           <CardContent>
             <Typography gutterBottom variant="h3" component="div">
