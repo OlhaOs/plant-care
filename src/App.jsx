@@ -88,7 +88,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Container maxWidth="md">
         <Routes>
-          <Route path="/plant-care" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/indoor" element={<IndoorPlants data={data} />}>
             <Route path="/indoor/species" element={<SpeciesPlants />} />
           </Route>

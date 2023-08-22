@@ -13,18 +13,17 @@ import LocalFloristOutlinedIcon from '@mui/icons-material/LocalFloristOutlined';
 import { Button } from '@mui/material';
 
 export default function Header() {
-  
   const [searchQuery, setSearchQuery] = useState(null);
   const handleSearch = e => {
     console.log(e.target.value);
-    setSearchQuery(e.target.value)
+    setSearchQuery(e.target.value);
   };
 
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <Button component={Link} to="/plant-care" color="secondary" sx={{ mr: 2 }}>
+          <Button component={Link} to="/" color="secondary" sx={{ mr: 2 }}>
             <LocalFloristOutlinedIcon fontSize="large" />
           </Button>
 
