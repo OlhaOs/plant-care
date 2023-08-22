@@ -3,7 +3,6 @@ import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import { FirebaseApp } from 'firebase/app';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from './firebase';
 
