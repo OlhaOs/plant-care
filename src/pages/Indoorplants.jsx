@@ -10,13 +10,15 @@ import ListItemText from '@mui/material/ListItemText';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 
+
+
 export default function Indoorplants({ data }) {
   const [selectedSpecies, setSelectedSpecies] = useState(null);
-  const uniqueSpecies = new Set(data.map(item => item.species));
-  const currentSpecies = data.filter(item => item.species === selectedSpecies);
-
   const [openSpecies, setOpenSpecies] = useState(null);
   const [open, setOpen] = React.useState(true);
+
+  const uniqueSpecies = new Set(data.map(item => item.species));
+  const currentSpecies = data.filter(item => item.species === selectedSpecies);
 
   const handleItemClick = species => {
     setSelectedSpecies(species);
@@ -30,6 +32,7 @@ export default function Indoorplants({ data }) {
       <List>
         {Array.from(uniqueSpecies).map(species => (
           <ListItem
+            color="primary"
             key={species}
             sx={{
               display: 'block',

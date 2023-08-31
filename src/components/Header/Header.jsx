@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" sx={{ borderRadius: '4px' }}>
         <Toolbar>
           <Button component={Link} to="/" color="secondary" sx={{ mr: 2 }}>
             <LocalFloristOutlinedIcon fontSize="large" />
