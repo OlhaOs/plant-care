@@ -6,6 +6,7 @@ import { Search, SearchIconWrapper, StyledInputBase } from './Header.styled';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
+import SearchPlant from '../Search/Search';
 
 import Typography from '@mui/material/Typography';
 import SearchIcon from '@mui/icons-material/Search';
@@ -14,6 +15,7 @@ import { Button } from '@mui/material';
 
 export default function Header() {
   const [searchQuery, setSearchQuery] = useState(null);
+
   const handleSearch = e => {
     console.log(e.target.value);
     setSearchQuery(e.target.value);
@@ -24,7 +26,15 @@ export default function Header() {
       <AppBar position="static" sx={{ borderRadius: '4px' }}>
         <Toolbar>
           <Button component={Link} to="/" color="secondary" sx={{ mr: 2 }}>
-            <LocalFloristOutlinedIcon fontSize="large" />
+            <LocalFloristOutlinedIcon
+              fontSize="large"
+              // sx={{
+              //   '&:hover': {
+              //     display: 'none',
+              //     // backgroundImage:' url(../images/blue-flower.png')',
+              //   },
+              // }}
+            />
           </Button>
 
           <Typography

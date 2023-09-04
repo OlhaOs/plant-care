@@ -1,8 +1,7 @@
 import { useState } from 'react';
-export default function Search() {
-const [query, setQuery] = useState('');
 
+export default function SearchPlant({ value }) {
+  const [query, setQuery] = useState('');
 
-
-  return <div>WE are searching smth</div>;
+  return <div>WE are searching smth{value}</div>;
 }

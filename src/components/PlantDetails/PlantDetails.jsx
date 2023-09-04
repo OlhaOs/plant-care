@@ -71,8 +71,7 @@ export default function PlantDetails({ data }) {
                 backgroundColor: 'rgba(0, 0, 0, 0.2)',
                 display: 'block',
                 margin: '0px auto',
-                maxWidth: '100%',
-                width: '30%',
+                width: '250px',
                 borderRadius: '4px',
                 boxShadow: ' 1px 1px 20px rgba(0,0, 0, 0.3)',
               }}
